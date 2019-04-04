@@ -14,7 +14,7 @@
     <link rel="icon" href="./img/core-img/favicon.png">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
 
 </head>
 
@@ -24,18 +24,21 @@
     <div class="loader"></div>
 </div>
 <!-- /Preloader -->
-    @include('partials.header')
+@include('partials.header')
 
+@yield('content')
 
-
-
-
-    @include('partials.footer')
-    @yield('content')
-
-    <!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+@include('partials.footer')
+<!-- JavaScripts -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<!-- Popper -->
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<!-- Bootstrap -->
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<!-- All Plugins -->
+<script src="{{ asset('js/alime.bundle.js') }}"></script>
+<!-- Active -->
+<script src="{{ asset('js/default-assets/active.js') }}"></script>
+{{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 </body>
 </html>
