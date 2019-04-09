@@ -52,6 +52,8 @@
 </div>
 @include('partials.header')
 @yield('content')
+@include('partials.footer')
+
 
 <!-- **** All JS Files ***** -->
 <!-- jQuery 2.2.4 -->
