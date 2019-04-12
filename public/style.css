@@ -1645,4 +1645,14 @@ input:required {
     border: none !important;
     border-radius: 10px; }
 
+  .size-h2{
+      font-size: 18px;
+  }
+
+  .color-style{
+      background: -webkit-linear-gradient(#000000, #ffe89e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
 /*# sourceMappingURL=style.css.map */
