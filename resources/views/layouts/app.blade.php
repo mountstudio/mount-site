@@ -21,6 +21,8 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ asset('style.css') }}">
+
+
     @stack('styles')
 
 </head>
@@ -66,6 +68,10 @@
 <script src="{{ asset('js/alime.bundle.js') }}"></script>
 <!-- Active -->
 <script src="{{ asset('js/default-assets/active.js') }}"></script>
+<!-- jquery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 @stack('scripts')
 
 </body>
