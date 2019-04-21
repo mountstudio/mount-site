@@ -29,13 +29,64 @@
     </div>
 </div>
 
-<div class="container py-5">
+
+
+    <!-- Why Choose Us Area Start -->
+    <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <span class="color-style h1 font-weight-bold"> Мы предоставим вам </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Why Choose Area -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-film" aria-hidden="true"></i>
+                        </div>
+                        <h4>High Quality Images</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                    </div>
+                </div>
+
+                <!-- Single Why Choose Area -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </div>
+                        <h4>Abundant Experience</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                    </div>
+                </div>
+
+                <!-- Single Why Choose Area -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                        </div>
+                        <h4>Modern Equipments</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose  us Area End -->
+
+    {{--
+    <div class="container py-5">
 
 
     <div class="col-12 text-center py-5">
         <span class="color-style h1 font-weight-bold"> Мы предоставим вам </span>
     </div>
-
     <div class="row">
         <div class="col-4 text-center">
             <div class="card" style="width: 18rem;">
@@ -69,6 +120,6 @@
         </div>
     </div>
 
-</div>
+</div>--}}
 
 <!-- Gallery Area End -->
